@@ -8,22 +8,23 @@ Console.WriteLine("Enter the name of item");
 string Itemname = Console.ReadLine();
 
 //Quantity
+double quantity; 
+double tprice;
+Console.WriteLine("Enter the Quantity");
 
-Console.WriteLine("Quantity");
 
-int quantity = Convert.ToInt32(Console.ReadLine());
-
+quantity = Convert.ToDouble( Console.ReadLine());
 
 // price
 
-Console.WriteLine(" Price");
+Console.WriteLine("Enter the Price");
 
-double price = Convert.ToInt32(Console.ReadLine());
+tprice = Convert.ToDouble(Console.ReadLine());
 
 
 //Unit price
 Console.WriteLine("Total Price of " + Itemname);
- Console.WriteLine("$" + quantity * price);
+ Console.WriteLine("$" + quantity * tprice);
  
  
 
